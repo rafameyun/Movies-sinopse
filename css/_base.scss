@@ -1,7 +1,8 @@
-$primary-color: #223e4b;
-$secondary-color: #374e69;
+$primary-color: #224870;
+$secondary-color: #2a4a94;
 
 .search {
+    color: #eee;
     background-color: transparent;
     border: 2px solid $primary-color;
     border-radius: 50px;
@@ -10,11 +11,12 @@ $secondary-color: #374e69;
     padding: 0.5rem 1rem;
     outline: none;
 
-    ::placeholder{
-        color: #739dc5;
-    }
-
-    :focus {
-        background-color: $primary-color;
-    }
 }
+.search::placeholder{
+    color: #eee;
+}
+
+:focus {
+    background-color: $primary-color;
+}
+
