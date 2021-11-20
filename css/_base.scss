@@ -1,0 +1,20 @@
+$primary-color: #223e4b;
+$secondary-color: #374e69;
+
+.search {
+    background-color: transparent;
+    border: 2px solid $primary-color;
+    border-radius: 50px;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    outline: none;
+
+    ::placeholder{
+        color: #739dc5;
+    }
+
+    :focus {
+        background-color: $primary-color;
+    }
+}
