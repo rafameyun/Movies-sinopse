@@ -1,4 +1,5 @@
 @import 'base';
+@import 'movie';
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
 
 * {
@@ -12,7 +13,7 @@ body {
 }
 
 header {
-    background-color: transparent;
+    background-color: $secondary-color;
     display: flex;
     justify-content: flex-end;
     padding: 1rem;
@@ -21,4 +22,6 @@ header {
 main {
     display: flex;
     flex-wrap: wrap;
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, $primary-color 100%, $secondary-color 25%);
 }
